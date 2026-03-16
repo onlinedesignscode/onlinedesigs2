@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <h1 class="logo">Willow</h1>
+            <div class="menu-toggle">☰</div> <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">SERVICIOS</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">SOBRE MÍ</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CONTACTO</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+                    <li class="nav-item cta-button"><a href="#">RESERVA </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-left">
+
+            <div class="hero-image-left">
+
+
+                <img src="./img/img (3).png" alt="" class="hero-image">
+            </div>
+            
+        </div>
+        <div class="hero-right">
+            <div class="hero-content">
+                <h2 class="hero-title">fotografa</h2>
+                <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, est. Voluptatem perspiciatis et quidem, quasi nisi dolores eaque! Iure, molestias? Eaque odit enim quis est. Soluta, ad. Nam, dolores quasi.</p>
+                <button class="hero-button">saber mas</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-left">
+            <div class="about-content">
+                <h2 class="about-title">DANIEL:</h2>
+                <p class="about-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione alias a recusandae, obcaecati tempora natus totam eius ad neque nihil! Exercitationem, distinctio labore. Distinctio veritatis ut quos dolorem dignissimos!
+            </div>
+        </div>
+        <div class="about-right">
+            <div class="about-image-right">
+                <img src="./img/img (4).png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <h2 class="section-title">Mis Servicios</h2>
+        <p class="section-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda officiis esse mollitia quas sit! Maxime tempore modi vero laborum odio illo nemo? Numquam eius velit enim repellat doloremque voluptatibus aliquam.</p>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-image-placeholder">
+                    <img src="./img/img (1).png" alt="">.
+                </div>
+                <h3 class="service-title">Servicio1</h3>
+                <p class="service-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus lauddoloribus, necs
+                </p>
+                <button class="service-button">MÁS INFORMACIÓN</button>
+            </div>
+            <div class="service-card">
+                <div class="service-image-placeholder">
+                    <img src="./img/img (2).png" alt="">
+                </div>
+                <h3 class="service-title">Servicio2</h3>
+                <p class="service-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus lauddoloribus, necs
+                </p>
+                <button class="service-button">MÁS INFORMACIÓN</button>
+            </div>
+            <div class="service-card">
+                <div class="service-image-placeholder">
+                    <img src="./img/img (5).png" alt="">
+                </div>
+                <h3 class="service-title">Servicio3</h3>
+                <p class="service-description">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus lauddoloribus, necs<br>
+                <button class="service-button">MÁS INFORMACIÓN</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <p class="newsletter-text">RECIBE LAS NOVEDADES</p>
+            <h2 class="newsletter-title"> SIGUENOS EN NUESTRAS REDES</h2>
+            <p class="newsletter-description">
+               INSTAGRAM, FACEBOOK, TWITTER:<br>
+                @WILLOWFOTOGRAFIA
+            </p>
+        </div>
+        <div class="newsletter-form">
+            </div>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
